@@ -7,7 +7,6 @@ This project is a Django Rest Framework (DRF) application that provides a comple
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Features
 
@@ -68,20 +67,20 @@ python manage.py runserver
 
 ### 5. Access the API:
 - The API is accessible at `http://127.0.0.1:8000/`.
-- Swagger UI can be accessed at `http://127.0.0.1:8000/api/v1/swagger/`.
+- Swagger UI can be accessed at `http://127.0.0.1:8000/api/schema/swagger/`.
 
 ## Usage
 
 ### Register a new user:
 
 ```bash
-POST /api/users/register/
+POST /api/v1/auth
 ```
 
 ### Get a JWT token:
 
 ```bash
-POST /api/token/
+POST /api/v1/token/
 ```
 
 ### Access a protected route with the JWT token:
