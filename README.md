@@ -68,7 +68,7 @@ python manage.py runserver
 
 ### 5. Access the API:
 - The API is accessible at `http://127.0.0.1:8000/`.
-- Swagger UI can be accessed at `http://127.0.0.1:8000/swagger/`.
+- Swagger UI can be accessed at `http://127.0.0.1:8000/api/v1/swagger/`.
 
 ## Usage
 
